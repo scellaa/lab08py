@@ -16,7 +16,7 @@ ______________________________________
 
 <img width="1003" height="643" alt="Screenshot 2025-12-07 124627" src="https://github.com/user-attachments/assets/488d2718-7fad-49c3-aedb-1b0930c322be" />
 
-<img width="1098" height="686" alt="Screenshot 2025-12-07 124655" src="https://github.com/user-attachments/assets/30b36935 cb6e-4ee7-b9af-779e0a8fea75" />
+<img width="1098" height="686" alt="Screenshot 2025-12-07 124655" src="https://github.com/user-attachments/assets/b99d3b83-b210-4eac-9115-848ed13c4c9c" />
 
 
 ### Penjelasan Kode

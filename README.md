@@ -8,7 +8,7 @@ ______________________________________
 
 #### Flowchart picture 
 
-
+<img.width="1018" height="1201" alt="Diagram pemrog 12 drawio" src="https://github.com/user-attachments/assets/e0b8f077-5bc2-4451-b867-9dae15828c78" />
 
 
 
@@ -33,9 +33,7 @@ ______________________________________
 ### Penjelasan Kode
 
 #### 1. Kelas Mahasiswa dan Inisialisasi Data
-Pada bagian awal, ke<img width="1018" height="1201" alt="Diagram pemrog 12 drawio" src="https://github.com/user-attachments/assets/e0b8f077-5bc2-4451-b867-9dae15828c78" />
-las Mahasiswa dibuat untuk menampung<img width="1018" height="1201" alt="Diagram pemrog 12 drawio" src="https://github.com/user-attachments/assets/d3c817de-61ed-4cbb-bef7-8cf8161c4e17" />
- seluruh fungsi pengelolaan data. Di dalam method __init__, 
+Pada bagian awal, kelas Mahasiswa dibuat untuk menampung seluruh fungsi pengelolaan data. Di dalam method __init__, 
 dibentuk sebuah list kosong bernama self.data yang akan digunakan untuk menyimpan semua data mahasiswa dalam bentuk dictionary. Dengan struktur ini,     
 setiap data mahasiswa yang ditambah, diubah, atau dihapus akan terorganisir rapi dalam satu variabel.
 #### 2. Method tambah(<img width="1018" height="1201" alt="Diagram pemrog 12 drawio" src="https://github.com/user-attachments/assets/2b9bce97-bc9f-4084-9120-febfbb619d0c" />

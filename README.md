@@ -22,7 +22,7 @@ ______________________________________
 ### Penjelasan Kode
 
 #### 1. Kelas Mahasiswa dan Inisialisasi Data
-Pada bagian awal, kelas Mahasiswa dibuat untuk menampung seluruh fungsi pengelolaan data. Di dalam method __init__, 
+Pada bagian awal, kelas Mahasiswa dibuat untuk menampung seluruh fungsi pengelolaan data. Di dalam method __init__,  
 dibentuk sebuah list kosong bernama self.data yang akan digunakan untuk menyimpan semua data mahasiswa dalam bentuk dictionary. Dengan struktur ini,     
 setiap data mahasiswa yang ditambah, diubah, atau dihapus akan terorganisir rapi dalam satu variabel.
 #### 2. Method tambah() untuk Menambahkan Data 

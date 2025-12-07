@@ -10,23 +10,14 @@ ______________________________________
 
 <img width="1018" height="1201" alt="Diagram pemrog 12 drawio" src="https://github.com/user-attachments/assets/2b9bce97-bc9f-4084-9120-febfbb619d0c" />
 
+### Output dari code 
+
+<img width="1114" height="548" alt="Screenshot 2025-12-07 124608" src="https://github.com/user-attachments/assets/9a82ca30-a185-47e6-a0ff-5b14eb24e085" />
+
+<img width="1003" height="643" alt="Screenshot 2025-12-07 124627" src="https://github.com/user-attachments/assets/488d2718-7fad-49c3-aedb-1b0930c322be" />
 
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+<img width="1098" height="686" alt="Screenshot 2025-12-07 124655" src="https://github.com/user-attachments/assets/30b36935-cb6e-4ee7-b9af-779e0a8fea75" />
 
 
 

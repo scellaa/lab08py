@@ -8,7 +8,7 @@ ______________________________________
 
 #### Flowchart picture 
 
-<img.width="1018" height="1201" alt="Diagram pemrog 12 drawio" src="https://github.com/user-attachments/assets/e0b8f077-5bc2-4451-b867-9dae15828c78" />
+<img width="1018" height="1201" alt="Diagram pemrog 12 drawio" src="https://github.com/user-attachments/assets/2b9bce97-bc9f-4084-9120-febfbb619d0c" />
 
 
 
@@ -36,8 +36,7 @@ ______________________________________
 Pada bagian awal, kelas Mahasiswa dibuat untuk menampung seluruh fungsi pengelolaan data. Di dalam method __init__, 
 dibentuk sebuah list kosong bernama self.data yang akan digunakan untuk menyimpan semua data mahasiswa dalam bentuk dictionary. Dengan struktur ini,     
 setiap data mahasiswa yang ditambah, diubah, atau dihapus akan terorganisir rapi dalam satu variabel.
-#### 2. Method tambah(<img width="1018" height="1201" alt="Diagram pemrog 12 drawio" src="https://github.com/user-attachments/assets/2b9bce97-bc9f-4084-9120-febfbb619d0c" />
-) untuk Menambahkan Data 
+#### 2. Method tambah() untuk Menambahkan Data 
 Method tambah() bertugas menerima data mahasiswa berupa nama, NIM, serta nilai tugas, UTS, dan UAS. Setelah menerima input, method ini menghitung nilai akhir berdasarkan bobot 
 penilaian (30% tugas, 35% UTS, dan 35% UAS). Semua data tersebut kemudian dikemas ke  dalam dictionary dan dimasukkan ke list self.data. 
 Sebagai penanda keberhasilan, program menampilkan pesan bahwa data telah berhasil ditambahkan ke daftar.

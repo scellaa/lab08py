@@ -22,7 +22,20 @@ class Mahasiswa:
                 return
         print(f"Data dengan nama {nama} tidak ditemukan.\n")
 
-  
+    def cari(self, nama):
+        for mhs in self.data:
+            if nama.lower() in mhs["nama"].lower():
+                print(f"=== Hasil Pencarian untuk '{nama}' ===")
+                print(f"Nama  : {mhs['nama']}")
+                print(f"NIM   : {mhs['nim']}")
+                print(f"Tugas : {mhs['nilai_Tugas']}")
+                print(f"UTS   : {mhs['nilai_UTS']}")
+                print(f"UAS   : {mhs['nilai_UAS']}")
+                print(f"Akhir : {mhs['nilai_akhir']:.2f}\n")
+                return
+        print(f"Data  tidak ditemukan.\n")
+    
+    
     def ubah(self, nama_baru=None, nim_baru=None,nilai_Tugas_baru=None, nilai_UTS_baru=None, nilai_UAS_baru=None):
         for mhs in self.data:
             if mhs["nama"].lower() == nama.lower():
@@ -57,7 +70,7 @@ class Mahasiswa:
             print(f"| {i:^2} | {mhs['nim']:^10} | {mhs['nama']:^12} | " 
                     f"{mhs['nilai_Tugas']:^6} |{mhs['nilai_UTS']:^6}  |{mhs['nilai_UAS']:^6}  |{mhs['nilai_akhir']:^7.2f} |")
         print("-" * 69)
-
+    
 
 m = Mahasiswa()
 
@@ -65,7 +78,7 @@ while True:
     print("\n" + "="*35)
     print("   PROGRAM INPUT NILAI MAHASISWA")
     print("="*35)
-    pilihan = input("[(L)ihat, (T)ambah, (U)bah, (H)apus, (K)eluar]: ").lower().strip()
+    pilihan = input("[(L)ihat, (T)ambah, (U)bah, (H)apus, (K)eluar, (C)ari]: ").lower().strip()
 
     if pilihan == "t":
         nama = input("Masukkan nama   : ")
@@ -81,6 +94,11 @@ while True:
 
     elif pilihan == "l":
         m.tampilkan()
+
+    elif pilihan == "c":  
+        nama_cari = input("Masukkan nama yang ingin dicari: ").strip()
+        if nama_cari:
+            m.cari(nama_cari)
 
     elif pilihan == "h":
         nama = input("Masukkan nama yang ingin dihapus: ")

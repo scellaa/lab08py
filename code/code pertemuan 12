@@ -23,9 +23,11 @@ class Mahasiswa:
         print(f"Data dengan nama {nama} tidak ditemukan.\n")
 
   
-    def ubah(self, nama, nim_baru=None,nilai_Tugas_baru=None, nilai_UTS_baru=None, nilai_UAS_baru=None):
+    def ubah(self, nama_baru=None, nim_baru=None,nilai_Tugas_baru=None, nilai_UTS_baru=None, nilai_UAS_baru=None):
         for mhs in self.data:
             if mhs["nama"].lower() == nama.lower():
+                if nama_baru:
+                    mhs["nama"] = nama_baru
                 if nim_baru:
                     mhs["nim"] = nim_baru
                 if nilai_Tugas_baru is not None:
@@ -90,7 +92,8 @@ while True:
             print("Nama tidak ditemukan!\n")
             continue
         print("Kosongkan jika tidak ingin mengubah bidang tersebut.")
-        nim_baru = input("NIM baru   : ") or None
+        nama_baru = input("Nama baru   : ") or None
+        nim_baru = input("NIM baru     : ") or None
         try:
             tugas_baru = input("Nilai Tugas baru: ")
             tugas_baru = float(tugas_baru) if tugas_baru else None
@@ -101,7 +104,7 @@ while True:
         except ValueError:
             print("Nilai harus angka!\n")
             continue
-        m.ubah(nama, nim_baru,tugas_baru, uts_baru, uas_baru)
+        m.ubah(nama_baru,nim_baru,tugas_baru,uts_baru,uas_baru)
 
     elif pilihan == "k":
         print("Terima kasih, program selesai.")
